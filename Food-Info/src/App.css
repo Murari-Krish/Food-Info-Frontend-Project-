@@ -1,0 +1,95 @@
+#mainHeading{
+ 
+  text-align: center;
+  
+  text-shadow: 1px 2px 6px orange;
+  /* background-image: url('https://i.pinimg.com/736x/6f/75/e0/6f75e0f409473443866cb7463e950bac.jpg'); */
+  background-size: cover;
+  background-clip: text; 
+  color: rgb(238, 93, 9);
+  animation: moveBackground 5s infinite linear;
+  margin-bottom: 3rem;
+  font-size: 6.2rem;
+  
+}
+
+
+
+
+.button-container {
+  margin-bottom: 20px;
+  
+}
+
+
+#component-container {
+  min-height: 300px;
+  margin-bottom: 4rem; /* Adjust based on your needs */
+}
+
+#goBackButton{
+  padding:0.7rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  background-color: maroon;
+  margin-left: 33rem;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  gap: 5rem; /* Adjust spacing between rows and columns */
+   /* Center buttons horizontally */
+  
+}
+
+.button-container button {
+ 
+  gap: 9rem;
+  flex: calc(23.333% - 2rem);
+  margin-top: 3rem; /* Adjust this value to reduce space between rows */
+  background-color: burlywood;
+  color: black;
+  font-weight: 4rem;
+  padding: 1rem; /* Smaller padding to decrease button size */
+  border-radius: 0.5rem; /* Adjust border-radius to match new size */
+  font-size: 1.1rem; /* Decrease font size */
+  /* 3 buttons per row with gap adjustment */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+
+
+.background-video {
+  position: fixed; /* Fixed positioning to cover the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire body */
+  z-index: -2; /* Ensure it is behind other content */
+  filter:blur(10%);
+}
+
+#button{
+  font-size: 1.3rem; /* Adjust the size as needed */
+}
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: violet;
+  text-align: center;
+}
+
+#text{
+  padding: 1.6rem;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  background-color: wheat;
+  color: black;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  
+}
+
