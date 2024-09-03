@@ -29,7 +29,7 @@
 
 #goBackButton{
   padding:0.7rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-radius: 1rem;
   font-size: 1.2rem;
   background-color: maroon;
@@ -93,3 +93,24 @@ h2{
   
 }
 
+#founder{
+  margin-left: 76rem;
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: rgb(239, 127, 136);
+  display: inline-block;
+     animation: scroll-right 10s linear infinite;
+            white-space: nowrap; /* Prevents text from wrapping */
+            overflow: hidden;
+           
+            width: 100%;
+}
+
+@keyframes scroll-right {
+  from {
+      transform: translateX(-100%); /* Start from right */
+  }
+  to {
+      transform: translateX(100%); /* Move to left */
+ }
+}

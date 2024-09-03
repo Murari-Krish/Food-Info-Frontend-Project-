@@ -1,0 +1,23 @@
+.nextButton{
+    padding: 0.6rem;
+}
+
+#searchbutton{
+    margin-left: 1rem;
+    padding:1rem;
+    background-color: antiquewhite;
+    color: black;
+    font-size: larger;
+    border-radius: 1rem;
+}
+input::placeholder{
+    color: black;
+}
+#backtoprevious{
+    padding : 0.6rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    background-color: rgb(44, 47, 46);
+
+}
